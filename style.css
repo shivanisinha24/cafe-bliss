@@ -1,0 +1,24 @@
+body { font-family: Arial; margin:0; color:#333;align-items: center; }
+nav { background:#6b4226; padding:10px; }
+nav ul { list-style:none; display:flex; justify-content:center; }
+nav ul li { margin:0 15px; }
+nav ul li a { color:white; text-decoration:none; font-weight:bold; }
+nav ul li a:hover { text-decoration:underline; }
+.hero { text-align:center; padding:50px; background:rgba(255,255,255,0.7); }
+.food-grid { display:flex; gap:20px; justify-content:center; flex-wrap:wrap; }
+.food-item { background:white; padding:15px; border-radius:8px; }
+footer { text-align:center; background:#6b4226; color:white; padding:10px; }
+h2{text-align: center; color: #6b4226;}
+p{text-align: center; color: black;}
+h1{text-align: center;color: color-mix(in lch increasing hue, color percentage, color percentage);}
+
+
+/* Background images */
+.home-bg { background:url('images/home-bg.jpg') no-repeat center center fixed; background-size:cover; }
+.menu-bg { background:url('images/menu-bg.jpg') no-repeat center center fixed; background-size:cover; }
+.contact-bg { background:url('images/contact-bg.jpg') no-repeat center center fixed; background-size:cover; }
+.login-bg { background:url('images/login-bg.jpg') no-repeat center center fixed; background-size:cover; }
+.register-bg { background:url('images/register-bg.jpg') no-repeat center center fixed; background-size:cover; }
+.about-bg {
+  background: url('images/about-bg.jpg') no-repeat center center fixed;
+  background-size: cover;}

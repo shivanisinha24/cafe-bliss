@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Login - Cafe Bliss</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+  <style>
+    /* General body styling */
+body.login-bg {
+  background: url('images/login-bg.jpg') no-repeat center center fixed;
+  background-size: cover;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+/* Navbar styling (same across all pages) */
+nav {
+  background-color: rgba(107, 66, 38, 0.9);
+  padding: 10px;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+nav ul li {
+  margin: 0 15px;
+}
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Centering the login form */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh; /* full screen height minus navbar */
+}
+
+/* Login box styling */
+.login-box {
+  background: rgba(255, 255, 255, 0.85);
+  padding: 30px;
+  border-radius: 10px;
+  width: 300px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  text-align: center;
+}
+
+/* Input fields */
+.login-box input {
+  width: 90%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+/* Button styling */
+.login-box button {
+  width: 95%;
+  padding: 12px;
+  background-color: #6b4226;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.login-box button:hover {
+  background-color: #8b5e3c;
+}
+
+/* Link to register */
+.login-box p a {
+  color: #6b4226;
+  text-decoration: none;
+}
+.login-box p a:hover {
+  text-decoration: underline;
+}
+  </style>
+</head>
+<body class="login-bg">
+  <!-- Navbar -->
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="menu.html">Menu</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Login Form -->
+  <div class="login-container">
+    <div class="login-box">
+      <h1>Login</h1>
+      <form onsubmit="return validateLogin()">
+        <input type="email" id="loginEmail" placeholder="Email" required><br>
+        <input type="password" id="loginPass" placeholder="Password" required><br>
+        <button type="submit">Login</button>
+      </form>
+      <p>New user? <a href="register.html">Register here</a></p>
+    </div>
+  </div>
+</body>
+</html>
