@@ -10,7 +10,7 @@ It includes:
 
 ## 🌐 Live Demo
 This project is hosted using GitHub Pages:  
-[Visit Cafe Bliss](https://your-username.github.io/cafe-bliss/)
+[Visit Cafe Bliss](https://shivanisinha24.github.io/cafe-bliss/)
 
 ## 🛠️ Technologies Used
 - HTML5
@@ -20,4 +20,4 @@ This project is hosted using GitHub Pages:
 ## 🚀 How to Run Locally
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/cafe-bliss.git
+   git clone https://github.com/shivanisinha24/cafe-bliss.git 
